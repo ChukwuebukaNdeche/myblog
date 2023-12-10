@@ -1,0 +1,50 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+head+body {
+    background-color: rgb(235, 234, 234);
+}
+.card>.card-body>.cardbtn {
+    border: 1px solid rgb(212, 210, 210);
+}
+.card>.card-body>.cardbtn:hover {
+    background-color: rgb(226, 222, 222);
+}
+
+.card>.card-body>.d-flex>.image_style {
+    width: 15%;
+    max-height: 50px;
+    margin-right: 10px;
+}
+.card>.card-body>.d-flex>.text>h5 {
+    font-weight: 400;
+}
+.footer>.btn_div>.previous,.next {
+     padding: 5px 15px;
+     font-weight: bold;
+     color: white;
+     outline: none;
+     border: 0;
+}
+.footer>.btn_div>.previous:hover{
+   background-color: grey;
+}
+.footer>.btn_div>.next:hover{
+    background-color: rgb(32, 32, 32);
+ }
+.footer>.btn_div>.next {
+    background-color: black;
+}
+.footer>.btn_div>.previous{
+    background-color: rgb(63, 62, 62);
+}
+.btn_div+p{
+    font-size: 12px;
+}
+.footer {
+    background-color: rgb(110, 109, 109);
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
